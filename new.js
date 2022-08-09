@@ -338,7 +338,7 @@ EmptyCartButton.addEventListener("click",function(){
 emptyCartReset ()
 
 purchaseCartButton.addEventListener("click",function(){
-    alert("Thank you for you patronage")
+    alert("Thank you for your patronage")
     nameSaver.splice(0,nameSaver.length)
     addedCartBody.innerHTML = "";
     updatePrice ()
