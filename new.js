@@ -654,3 +654,11 @@ window.addEventListener("scroll",function(){
 })
 }animationCool()
 
+const shopButtonLoad = document.querySelector(".shop-button")
+shopButtonLoad.addEventListener("click",function(){
+    // console.log("women")
+    const position = 0;
+    backToHomePageItem(position)
+    WomenSection()
+})
+
