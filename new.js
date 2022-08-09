@@ -351,7 +351,9 @@ purchaseCartButton.addEventListener("click",function(){
             top:0,
         })
     }
-
+const position = 0;
+    backToHomePageItem(position)
+    MenSection ()
 })
 // window.addEventListener("scroll",function(){
 //     const scrollHeight = window.pageYOffset;
